@@ -7,7 +7,18 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "aliasify": {
+    "aliases": {
+      "underscore": "./node_modules/lodash/dist/lodash.js"
+    }
+  },
   "dependencies": {
+    "@types/backbone": "^1.3.42",
+    "@types/jquery": "^3.3.4",
+    "@types/lodash": "^4.14.110",
+    "element-ui": "^2.4.3",
+    "jointjs": "^2.1.3",
+    "svg-pan-zoom": "ariutta/svg-pan-zoom",
     "vue": "^2.5.16",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^6.0.0",
